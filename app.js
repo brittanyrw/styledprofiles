@@ -16,6 +16,8 @@ $.ajax({
             }
 
             profile += '<div class="profile ' + uniqueClass + '"><header><h1>' + data[i].name + '</h1><h2>' + data[i].occupation + '</h2><p class="location">' + data[i].location + '</p><p>Favorite Emoji: ' + data[i].emoji + '</p></header><div class="profile-content"><div class="interests"><ul>' + interests + '</ul></div><p class="profile-bio">' + data[i].bio + '</p><div class="contact"><a href="">' + data[i].link + '</a></div></div></div>';
+
+            interests = '';
         }
 
         function createSlug(name) {

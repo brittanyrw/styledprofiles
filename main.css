@@ -24,6 +24,10 @@ body {
   /* overflow: hidden;   */
 } 
 
+.profile:last-child {
+  margin-bottom: 0;
+}
+
   @media (min-width:  600px) { 
     #profiles {
       column-count: 2; 
@@ -34,14 +38,7 @@ body {
     #profiles {
       column-count: 3; 
     }
-    
   }
-  @media (min-width:  1200px) { 
-    #profiles {
-      column-count: 4; 
-    }
-  } 
-
 
 .brittany-walker {
   border: 4px solid purple;
@@ -65,4 +62,25 @@ body {
   color: black;
   padding: 5px;
   margin: 5px;
+}
+
+.brittany-walkerr {
+  border: 4px solid yellowgreen;
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.brittany-walkerr h1 {
+  font-size: 16px;
+}
+
+.brittany-walkerr ul {
+  background-color: yellowgreen;
+  padding: 20px;
+  list-style: none;
+}
+
+.brittany-walkerr li {
+  color: black;
 }
